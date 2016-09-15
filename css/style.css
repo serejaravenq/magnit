@@ -182,10 +182,10 @@ h1{
 }
 
 .zvoniwra{
-
-	min-width:177px;
+min-width:177px;
 	max-width:265px;
 	padding: 10px;
+	
 	
 }
 .container3{
@@ -200,16 +200,17 @@ h1{
 	max-width:265px;
 
 }
-.field{
-	padding-bottom: 6px;
-}
+
 .field1{
 	width:100%;
+	margin-bottom: 6px;
+
 }
 label{
 	width:100%;
 }
 table{
+	text-align:center;
 	display:inline-block;
 	margin: 25px auto 5px;
 	border: 1px solid lightblue;
@@ -403,6 +404,48 @@ h3{
 .container7{
 	background: black;
 }
+.picturecol{
+	margin-bottom:25px;
+}
+.descrleftcol{
+	font-size:15px;
+	color:black;
+	font-weight:bold;
+}
+.leftcol{
+ width:136px;
+}
+.bodytable{
+
+}
+.uppercol{
+	
+	border-left: 1px solid lightblue;
+}
+.middlecol{
+	
+	width:154px;
+	border: 1px solid lightblue;
+    border-right: none;
+}
+.middlecol > span{
+	font-size:15px;
+	font-weight: bold;
+    color: red;
+}
+.middlecol > p{
+	opacity: 0.9;
+	text-decoration: line-through;
+}
+.lowercol > p{
+	    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 13px;
+}
+.lowercol > p > span{
+	    color: lightblue;
+    font-weight: bold;
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.description{
@@ -519,5 +562,6 @@ label{
 
 .field1{
 	font-size:5px;
+	margin: 0;
 }
 }
